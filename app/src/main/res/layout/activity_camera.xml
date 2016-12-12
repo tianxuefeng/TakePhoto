@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="2px"
+	android:gravity="top">
+
+	<SurfaceView android:id="@+id/SurfaceView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:fadingEdge="horizontal|none"></SurfaceView>
+	<!-- <ImageView android:layout_width="wrap_content" -->
+	<!-- android:layout_height="wrap_content" android:layout_alignTop="@+id/SurfaceView01" -->
+	<!-- android:layout_alignBottom="@+id/SurfaceView01" android:id="@+id/ImageViewWait" -->
+	<!-- android:src="@drawable/wait" android:layout_centerInParent="true" -->
+	<!-- android:visibility="invisible"></ImageView> -->
+	<ProgressBar android:id="@+id/ProgressBarPhoto"
+		android:visibility="invisible" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerInParent="true"></ProgressBar>
+	<ImageButton android:layout_height="wrap_content"
+		android:id="@+id/ShootButton" android:layout_width="wrap_content"
+		android:src="@drawable/btn_camera" android:layout_centerInParent="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="25dip"
+		android:background="@null"
+		android:focusable="true" android:focusableInTouchMode="true">
+	</ImageButton>
+
+</RelativeLayout>

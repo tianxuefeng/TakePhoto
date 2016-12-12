@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dip"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+	<Button
+	 	android:id="@+id/btn_select_camera"   
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:padding="10dip"
+	 	android:background="@drawable/btn_add_image"
+	 	android:layout_marginLeft="15dip"
+	 	android:layout_marginRight="15dip"
+	 	android:text="拍照"
+	 	android:textColor="@color/white"
+	 	android:textSize="20sp"
+	/>
+	<Button
+	 	android:id="@+id/btn_select_file"   
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:padding="10dip"
+	 	android:background="@drawable/btn_add_image"
+	 	android:layout_marginTop="10dip"
+	 	android:layout_marginLeft="15dip"
+	 	android:layout_marginRight="15dip"
+	 	android:text="选择文件"
+	 	android:textColor="@color/white"
+	 	android:textSize="20sp"
+	/>
+	<Button
+	 	android:id="@+id/btn_select_cancle"   
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:padding="10dip"
+	 	android:layout_marginTop="10dip"
+	 	android:layout_marginLeft="15dip"
+	 	android:layout_marginRight="15dip"
+	 	android:background="#FF999999"
+	 	android:text="取消"
+	 	android:textColor="@color/white"
+	 	android:textSize="20sp"
+	/>
+</LinearLayout>
